@@ -2,19 +2,19 @@
 <template>
   <header>
     <nav class="container">
-      <a href="/">
+      <router-link to="/">
         <img src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/wdev.svg" alt="WDEV" id="logo">
-      </a>
+      </router-link>
       <img src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/menu.svg" alt="Abrir menu" id="menu-button" v-on:click="openMenu" >
     </nav>
     <div v-on:click="closeMenu" id="menu-overlay" v-if="menuActive"></div>
     <div id="menu-items" :class="{active: menuActive}">
       <img src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/wdev.svg" alt="WDEV" id="menu-logo">
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/videos">Vídeos</a></li>
-        <li><a href="/sobre">Sobre</a></li>
-        <li><a href="/contato">Contato</a></li>
+        <li v-on:click="closeMenu"><router-link to="/">Home</router-link></li>
+        <li v-on:click="closeMenu"><router-link to="/videos">Vídeos</router-link></li>
+        <li v-on:click="closeMenu"><router-link to="/sobre">Sobre</router-link></li>
+        <li v-on:click="closeMenu"><router-link to="/contato">Contato</router-link></li>
       </ul>
     </div>
   </header>
@@ -101,6 +101,7 @@
   ul {
     list-style: none;
     text-align: center;
+    margin-right: 10px;
   }
 
   ul li {

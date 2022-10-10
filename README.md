@@ -27,6 +27,8 @@ Veja em [Configuration Reference](https://cli.vuejs.org/config/).
 
 - [x] Criando o componente Sobre.
 
+- [x] Criando o componente Contatos.
+
 
 ## Pacotes utilizados
 
