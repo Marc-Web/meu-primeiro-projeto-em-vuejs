@@ -1,24 +1,20 @@
-# wdev-site
+# Projeto wdev-site
 
-## Project setup
+Criando o primeiro projeto com Vuejs a partir [deste site](https://www.youtube.com/watch?v=kmsM_hHrDHE&ab_channel=WDEV).
+
+## Configuração do Projeto
 ```
 npm install
 ```
+### Para rodar a aplicação
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+Clone o projeto para sua máquina e insira este comando no terminal: npm run serve
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Configuração customizada
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Veja em [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Desenvolvimento
+
+- [x] Configurações inicias: criando o Header, o arquivo css global e estilizando o componente Header.
