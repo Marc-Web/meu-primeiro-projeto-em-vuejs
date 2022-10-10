@@ -25,6 +25,8 @@ Veja em [Configuration Reference](https://cli.vuejs.org/config/).
 
 - [x] Criando o componente Footer, o componente Videos e criando rotas de navegação entre páginas com o vue-router.
 
+- [x] Criando o componente Sobre.
+
 
 ## Pacotes utilizados
 
