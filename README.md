@@ -18,3 +18,5 @@ Veja em [Configuration Reference](https://cli.vuejs.org/config/).
 ## Desenvolvimento
 
 - [x] Configurações inicias: criando o Header, o arquivo css global e estilizando o componente Header.
+
+- [x] Criando o menu no componente Header.
