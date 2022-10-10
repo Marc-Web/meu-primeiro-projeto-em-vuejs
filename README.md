@@ -22,3 +22,5 @@ Veja em [Configuration Reference](https://cli.vuejs.org/config/).
 - [x] Criando o menu no componente Header.
 
 - [x] Criando o componente Home.
+
+- [x] Criando o componente Footer.
