@@ -31,5 +31,5 @@ Veja em [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Pacotes utilizados
 
-- Pacote [axios](https://www.npmjs.com/package/axios);
-- Pacote [vue-router](https://router.vuejs.org/);
+- Pacote [axios](https://www.npmjs.com/package/axios) que é um cliente HTTP baseado em Promises para fazer requisições;
+- Pacote [vue-router](https://router.vuejs.org/) que é o roteador oficial para Vue.js;
