@@ -23,4 +23,10 @@ Veja em [Configuration Reference](https://cli.vuejs.org/config/).
 
 - [x] Criando o componente Home.
 
-- [x] Criando o componente Footer.
+- [x] Criando o componente Footer, o componente Videos e criando rotas de navegação entre páginas com o vue-router.
+
+
+## Pacotes utilizados
+
+- Pacote [axios](https://www.npmjs.com/package/axios);
+- Pacote [vue-router](https://router.vuejs.org/);
